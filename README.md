@@ -1,3 +1,6 @@
+## About
+
+This repository contains Terraform configurations for provisioning AWS EC2 infrastructure. It automates the creation of VPCs, key pairs, and EC2 instances, making it easier to deploy and manage cloud resources. Sensitive files and local state are excluded from version control to ensure security and best practices.
 # Terraform AWS EC2 in Jakarta Region
 
 This Terraform configuration creates a minimal EC2 instance in the AWS Jakarta (ap-southeast-3) region with the following specifications:
