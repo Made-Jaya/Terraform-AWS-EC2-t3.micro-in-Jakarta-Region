@@ -1,0 +1,9 @@
+aws_region        = "ap-southeast-3"
+instance_type     = "t3.micro"
+ami_id           = "ami-00122f261fc903efc"  # ubuntu Cuda Nvidia
+vpc_cidr         = "10.0.0.0/16"
+subnet_cidr      = "10.0.1.0/24"
+availability_zone = "ap-southeast-3a"
+instance_name    = "minimal-ec2"
+aws_access_key   = "your_aws_access_key"
+aws_secret_key   = "your_aws_secret_key"
